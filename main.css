@@ -1,0 +1,68 @@
+/* body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+.top_container {
+  background-color: #6666ff;
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  padding: 20px;
+}
+
+.middle_container {
+  background-color: #ff0000;
+  width: 200px;
+  height: 200px;
+  border: solid 20px;
+  margin-left: 260px;
+}
+.bottom_container {
+  background-color: #0000ff;
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  margin-left: 500px;
+} */
+
+.pro {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+}
+
+h1 {
+  margin-top: 50px auto 0 auto;
+  color: #66bfbf;
+  font-size: 5.62rem;
+  /* 16px=100% = 1 em  eşitliği vardır . çıktıda bir M ölçüsüdür bu....ama em de bir üstündekiyle çarpar 
+  örnek h1 in em i ile body nin em si çarpılarak değer alır,remde direkt değeri alır*/
+}
+h2 {
+  color: #66bfbf;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
